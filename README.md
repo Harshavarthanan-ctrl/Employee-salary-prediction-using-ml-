@@ -1,32 +1,42 @@
-# Employee-salary-prediction-using-ml
-A machine learning-based application designed to predict employee salaries using demographic and professional attributes. The system aids HR teams, recruiters, and analysts in making data-driven compensation decisions.
+# 💼 Employee Salary Prediction Using ML
 
-## Project Overview
+A machine learning-based application designed to **predict employee salaries** using demographic and professional attributes. This solution enables **HR teams**, **recruiters**, and **compensation analysts** to make **data-driven decisions** about compensation and benchmarking.
 
-This project employs regression techniques and data science methodologies to build a predictive model for salary estimation. The solution is capable of analyzing patterns across various employee-related features such as:
+---
 
-- Education level  
-- Years of experience  
-- Industry  
-- Skillset  
-- Job role  
-- Location  
+## 📘 Project Overview
 
-## Technologies Used
+This project applies **supervised regression algorithms** and core data science workflows to build a predictive model for salary estimation. The model analyzes salary patterns based on:
 
-- **Python 3.11**
-- **Pandas**, **NumPy** – Data preprocessing  
-- **Matplotlib**, **Seaborn**, **Plotly**, **Dash** – Data visualization and UI  
-- **Scikit-learn** – Model training and evaluation  
-- **Jupyter Notebook / Streamlit / Dash** – UI and deployment
+- 🎓 Education Level  
+- 📆 Years of Experience  
+- 🏢 Industry  
+- 🧠 Skillset  
+- 💼 Job Role  
+- 🌍 Location  
 
-## Getting Started
+---
 
-### Installation
+## 🛠️ Technologies Used
 
-Clone the repository and install dependencies:
+| Category        | Libraries/Tools                       |
+|----------------|----------------------------------------|
+| Language        | Python 3.11                           |
+| Data Handling   | Pandas, NumPy                         |
+| Visualization   | Matplotlib, Seaborn, Plotly, Dash     |
+| Machine Learning| Scikit-learn                          |
+| Deployment UI   | Streamlit, Jupyter Notebook, Dash     |
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Installation
+
+Clone the repository and set up the environment:
 
 ```bash
-git clone https://github.com/YourUsername/salary-prediction.git
+git clone https://github.com/Harshavarthanan-ctrl/salary-prediction.git
 cd salary-prediction
 pip install -r requirements.txt
+streamlit run app.py
